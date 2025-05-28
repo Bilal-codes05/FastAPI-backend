@@ -7,7 +7,9 @@ class Blog(BaseModel):
 class BlogResponse(BaseModel):
     title:str
     body:str
-    class config:
+    class Config:
         orm_mode=True
     
+    
+
     
